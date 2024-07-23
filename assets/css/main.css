@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+img {
+  width: 13rem;
+}
+
+header nav ul li a {
+  font-family: "Montserrat";
+}
+header nav ul li a:hover {
+  color: #ffc800 !important;
+}
+
+main .oneSection {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 47rem;
+}
+main .oneSection div {
+  height: 51rem;
+}
+main .oneSection p {
+  font-family: "Roboto Slab";
+}
+main .oneSection h1 {
+  font-size: 72px;
+  font-family: "Montserrat";
+}
+main .oneSection button {
+  font-family: "Montserrat";
+}
+main .twoSection {
+  height: 60rem;
+}
+main .twoSection h1 {
+  font-family: "Montserrat";
+}
+main .twoSection p {
+  font-family: "Roboto Slab";
+}
+main .twoSection .icons {
+  font-size: 5rem;
+  width: 8rem;
+  height: 8rem;
+}
+main .twoSection .icons .fa-cart-shopping,
+main .twoSection .icons .fa-laptop,
+main .twoSection .icons .fa-lock {
+  font-size: 4rem;
+}
+main .twoSection h5 {
+  font-family: "Montserrat";
+}
+main .twoSection p {
+  font-family: "Roboto Slab";
+}
+main .threeSection {
+  height: 75rem;
+}
+main .threeSection h1 {
+  font-family: "Montserrat";
+}
+main .threeSection h5 {
+  font-family: "Montserrat";
+}
+main .threeSection p {
+  font-family: "Robot Slab";
+}
+main .fourSection h1 {
+  font-family: "Montserrat";
+}
+main .fourSection p {
+  font-family: "Roboto Slab";
+}
+main .fiveSection {
+  height: 50rem;
+}
+main .fiveSection h1 {
+  font-family: "Montserrat";
+}
+main .fiveSection p {
+  font-family: "Roboto Slab";
+}
+main .fiveSection .team h5 {
+  font-family: "Montserrat";
+}
+main .fiveSection .team p {
+  font-family: "Roboto Slab";
+}
+main .sixSection {
+  height: 15rem;
+}
+main .sevenSection {
+  background-color: #212529;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+  height: 45rem;
+}
+main .sevenSection h1 {
+  font-family: "Montserrat";
+}
+main .sevenSection p {
+  font-family: "Roboto Slab";
+}
+main .sevenSection .input {
+  width: 35rem;
+}
+main .sevenSection .input .form-control {
+  height: 4rem;
+}
+main .sevenSection .textarea {
+  width: 35rem;
+}
+main .sevenSection .textarea textarea {
+  height: 15rem;
+}
+main .sevenSection button {
+  font-family: "Montserrat";
+}
+
+@media (max-width: 992px) {
+  header nav ul li {
+    display: none;
+  }
+  main .twoSection .menu {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  main .threeSection .portfolio {
+    flex-wrap: wrap;
+  }
+  main .fiveSection .team {
+    flex-wrap: wrap;
+  }
+  main .sixSection .brends {
+    flex-wrap: wrap;
+  }
+  main .sevenSection .form {
+    flex-wrap: wrap;
+  }
+}
+.imageParrent {
+  position: relative;
+}
+
+.bg {
+  display: none;
+  top: 0;
+}
+
+.imageParrent:hover .bg {
+  display: block;
+}

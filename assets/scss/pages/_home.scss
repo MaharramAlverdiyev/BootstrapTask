@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+img {
+    width: 13rem;
+}
+
+header {
+    nav {
+        ul {
+            li {
+                a {
+                    font-family: "Montserrat";
+
+                    &:hover {
+                        color: #ffc800 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+main {
+    .oneSection {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        height: 47rem;
+
+        div {
+            height: 51rem;
+        }
+
+        p {
+            font-family: "Roboto Slab"
+        }
+
+        h1 {
+            font-size: 72px;
+            font-family: "Montserrat";
+
+        }
+
+        button {
+            font-family: "Montserrat";
+        }
+    }
+
+    .twoSection {
+        height: 60rem;
+
+        h1 {
+            font-family: "Montserrat"
+
+        }
+
+        p {
+            font-family: "Roboto Slab";
+        }
+
+        .icons {
+            font-size: 5rem;
+            width: 8rem;
+            height: 8rem;
+
+            .fa-cart-shopping,
+            .fa-laptop,
+            .fa-lock {
+
+                font-size: 4rem;
+
+            }
+
+        }
+
+        h5 {
+
+            font-family: "Montserrat";
+
+        }
+
+        p {
+            font-family: "Roboto Slab";
+        }
+    }
+
+    .threeSection {
+        height: 75rem;
+
+        h1 {
+            font-family: "Montserrat";
+
+        }
+
+        h5 {
+            font-family: "Montserrat";
+        }
+
+        p {
+            font-family: "Robot Slab";
+        }
+    
+       
+    }
+
+    .fourSection {
+        h1 {
+            font-family: "Montserrat"
+
+        }
+
+        p {
+            font-family: "Roboto Slab";
+        }
+
+    }
+
+    .fiveSection {
+        height: 50rem;
+
+        h1 {
+            font-family: "Montserrat"
+
+        }
+
+        p {
+            font-family: "Roboto Slab";
+        }
+
+        .team {
+            h5 {
+
+                font-family: "Montserrat";
+
+            }
+
+            p {
+                font-family: "Roboto Slab";
+            }
+        }
+    }
+    .sixSection {
+        height: 15rem;
+    }
+    .sevenSection {
+     background-color: #212529;
+     background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png');
+     height: 45rem;
+     h1 {
+        font-family: "Montserrat"
+
+    }
+
+    p {
+        font-family: "Roboto Slab";
+    }
+     .input {
+        width: 35rem;
+        .form-control {
+            height: 4rem;
+        }
+     }
+     .textarea {
+        width: 35rem;
+        textarea {
+            height:15rem; 
+        }
+        }
+        button {
+            font-family: "Montserrat";
+        }
+     }
+    }
+
+
+@media (max-width: 992px) {
+    header nav ul li {
+        display: none;
+    }
+
+    main {
+        .twoSection {
+            .menu {
+                flex-wrap: wrap;
+                height: auto;
+            }
+        }
+
+        .threeSection {
+            .portfolio {
+                flex-wrap: wrap;
+            }
+        }
+        .fiveSection {
+            .team{
+            flex-wrap: wrap;
+            }
+        }
+        .sixSection {
+            .brends{
+            
+            flex-wrap: wrap;
+            }
+        }
+        .sevenSection {
+            .form {
+            flex-wrap: wrap;
+            
+            }
+        }
+    }
+}
+.imageParrent{
+    position: relative;
+}
+.bg{
+    display: none;
+    top: 0;
+   
+}
+.imageParrent:hover .bg{
+    display: block;
+}
