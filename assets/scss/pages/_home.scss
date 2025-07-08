@@ -52,7 +52,7 @@ main {
     }
 
     .twoSection {
-        height: 60rem;
+        height: auto;
 
         h1 {
             font-family: "Montserrat"
@@ -90,7 +90,8 @@ main {
     }
 
     .threeSection {
-        height: 75rem;
+         height: auto;
+         padding: 10px;
 
         h1 {
             font-family: "Montserrat";
@@ -121,8 +122,8 @@ main {
     }
 
     .fiveSection {
-        height: 50rem;
-
+        height: auto;
+        padding: 10px;
         h1 {
             font-family: "Montserrat"
 
@@ -145,12 +146,14 @@ main {
         }
     }
     .sixSection {
-        height: 15rem;
+        height: auto;
+        padding: 20px;
     }
     .sevenSection {
      background-color: #212529;
      background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png');
-     height: 45rem;
+     height: auto;
+     padding: 20px;
      h1 {
         font-family: "Montserrat"
 
@@ -203,14 +206,16 @@ main {
         }
         .sixSection {
             .brends{
-            
+            gap: 30px;
             flex-wrap: wrap;
             }
         }
         .sevenSection {
             .form {
             flex-wrap: wrap;
-            
+               .wrap{
+                flex-wrap: wrap;
+               }
             }
         }
     }

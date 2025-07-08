@@ -33,7 +33,7 @@ main .oneSection button {
   font-family: "Montserrat";
 }
 main .twoSection {
-  height: 60rem;
+  height: auto;
 }
 main .twoSection h1 {
   font-family: "Montserrat";
@@ -58,7 +58,8 @@ main .twoSection p {
   font-family: "Roboto Slab";
 }
 main .threeSection {
-  height: 75rem;
+  height: auto;
+  padding: 10px;
 }
 main .threeSection h1 {
   font-family: "Montserrat";
@@ -76,7 +77,8 @@ main .fourSection p {
   font-family: "Roboto Slab";
 }
 main .fiveSection {
-  height: 50rem;
+  height: auto;
+  padding: 10px;
 }
 main .fiveSection h1 {
   font-family: "Montserrat";
@@ -91,12 +93,14 @@ main .fiveSection .team p {
   font-family: "Roboto Slab";
 }
 main .sixSection {
-  height: 15rem;
+  height: auto;
+  padding: 20px;
 }
 main .sevenSection {
   background-color: #212529;
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
-  height: 45rem;
+  height: auto;
+  padding: 20px;
 }
 main .sevenSection h1 {
   font-family: "Montserrat";
@@ -135,9 +139,13 @@ main .sevenSection button {
     flex-wrap: wrap;
   }
   main .sixSection .brends {
+    gap: 30px;
     flex-wrap: wrap;
   }
   main .sevenSection .form {
+    flex-wrap: wrap;
+  }
+  main .sevenSection .form .wrap {
     flex-wrap: wrap;
   }
 }
